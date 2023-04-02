@@ -23,5 +23,6 @@ function App() {
     </div>
   );
 }
+console.count([label])
 
 export default App;

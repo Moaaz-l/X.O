@@ -15,7 +15,7 @@ function check(){
 
 //////////صف
 if(squers[1]==squers[2] && squers[2]==squers[3] && squers[1]!=""){
-    alart('player ' + sqeers[1] +' win the game');
+    alart('player ' + squers[1] +' win the game');
 
     reset(1,2,3);
 

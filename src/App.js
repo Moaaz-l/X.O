@@ -1,9 +1,10 @@
+import { click } from "@testing-library/user-event/dist/click";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="X-O"> XO Game
+      <h1 className="X-O"> ❌⭕ GAME
 </h1>
       <div>
 <button id="c1" onclick="insert(this.id)"></button>
@@ -23,6 +24,5 @@ function App() {
     </div>
   );
 }
-console.count([label])
 
 export default App;
